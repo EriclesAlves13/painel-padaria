@@ -1,10 +1,10 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// IMPORTANTE: troque "painel-padaria" abaixo pelo nome exato do seu repositório
-// no GitHub, caso vá publicar no GitHub Pages (ex: usuario.github.io/NOME-DO-REPO/).
-// Se for publicar na Vercel ou Netlify, pode deixar base: "/".
+// IMPORTANTE:
+// - Se for publicar na Vercel ou Netlify, deixe base: "/" (é o padrão abaixo).
+// - Se for publicar no GitHub Pages, troque para "/NOME-DO-REPOSITORIO/".
 export default defineConfig({
   plugins: [react()],
-  base: "/painel-padaria/",
+  base: "/",
 });
